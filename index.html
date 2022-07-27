@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="profile">
+      <div class="profile__card flex dir-column">
+        <div class="profile__cardInfo flex">
+          <img src="./images/image-jeremy.png" alt="Jeremy">
+          <div class="profile__cardName flex dir-column">
+            <p>Report for</p>
+            <p>Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="profile__cardOptions flex">
+          <button>Daily</button>
+          <button class="active-option">Weekly</button>
+          <button>Monthly</button>
+        </div>
+      </div>
+    </section>
+    <section class="tracker">
+      <!-- Work -->
+      <div class="tracker__card work">
+        <img src="./images/icon-work.svg" alt="Work">
+        <div class="tracker__cardDetails flex dir-column">
+          <div class="flex">
+            <p>Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="More Work">
+          </div>
+          <div class="flex">
+            <p><span id="current-work">32</span>hrs</p>
+            <p>Last week - <span id="previous-work">36</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <!-- Play -->
+      <div class="tracker__card play">
+        <img src="./images/icon-play.svg" alt="play">
+        <div class="tracker__cardDetails flex dir-column">
+          <div class="flex">
+            <p>Play</p>
+            <img src="./images/icon-ellipsis.svg" alt="More play">
+          </div>
+          <div class="flex">
+            <p><span id="current-play">10</span>hrs</p>
+            <p>Last week - <span id="previous-play">8</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <!-- study -->
+      <div class="tracker__card study">
+        <img src="./images/icon-study.svg" alt="study">
+        <div class="tracker__cardDetails flex dir-column">
+          <div class="flex">
+            <p>Study</p>
+            <img src="./images/icon-ellipsis.svg" alt="More study">
+          </div>
+          <div class="flex">
+            <p><span id="current-study">4</span>hrs</p>
+            <p>Last week - <span id="previous-study">7</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <!-- Exercise -->
+      <div class="tracker__card exercise">
+        <img src="./images/icon-exercise.svg" alt="exercise">
+        <div class="tracker__cardDetails flex dir-column">
+          <div class="flex">
+            <p>Exercise</p>
+            <img src="./images/icon-ellipsis.svg" alt="More exercise">
+          </div>
+          <div class="flex">
+            <p><span id="current-exercise">4</span>hrs</p>
+            <p>Last week - <span id="previous-exercise">5</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <!-- Social -->
+      <div class="tracker__card social">
+        <img src="./images/icon-social.svg" alt="social">
+        <div class="tracker__cardDetails flex dir-column">
+          <div class="flex">
+            <p>Social</p>
+            <img src="./images/icon-ellipsis.svg" alt="More social">
+          </div>
+          <div class="flex">
+            <p><span id="current-social">5</span>hrs</p>
+            <p>Last week - <span id="previous-social">10</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <!-- Self care -->
+      <div class="tracker__card self-care">
+        <img src="./images/icon-self-care.svg" alt="self-care">
+        <div class="tracker__cardDetails flex dir-column">
+          <div class="flex">
+            <p>Self Care</p>
+            <img src="./images/icon-ellipsis.svg" alt="More self-care">
+          </div>
+          <div class="flex">
+            <p><span id="current-self-care">2</span>hrs</p>
+            <p>Last week - <span id="previous-self-care">2</span>hrs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
